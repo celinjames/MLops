@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: housepricepredictorv2
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mldeployment
+  template:
+    metadata:
+      labels:
+        app: mldeployment
+    spec:
+      containers:
+      - name: ml-app
+        image: gcr.io/mldeployment-351822/myapp:v1
+        ports:
+        - containerPort: 8080
