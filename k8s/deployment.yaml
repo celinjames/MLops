@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: housepricepredictorv2
+  name: housepricepredictor
 spec:
   replicas: 1
   selector:
