@@ -3,7 +3,6 @@ import numpy as np
 
 # Import Flask modules
 from flask import Flask, request, render_template
-import config
 # Import pickle to save our regression model
 import pickle
 
