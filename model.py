@@ -2,7 +2,7 @@
 # 
 # File          : model.py
 # Created       : 25/05/22 2:53 PM
-# Author        : Ron Greego
+# Author        : Celin James
 # Version       : v1.0.0
 # Description   :
 #
